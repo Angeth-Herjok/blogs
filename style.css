@@ -1,0 +1,131 @@
+body{
+
+}
+.head{
+  
+  
+}
+.back{
+  background-image: url("/images1/greengarden.jpeg");
+}
+nav {
+  background-color: #fff;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 90px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  color: #1d3a02;
+}
+nav .logo {
+  margin: 0;
+  padding: 0;
+  height: 80px;
+  margin-left: 10%;
+}
+nav .logo img {
+  height: 100%;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+nav li {
+  margin-left: 20px;
+}
+nav li:first-child {
+  margin-left: 0;
+}
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  font-size: 16px;
+  transition: all 0.2s ease-in-out;
+}
+nav a:hover {
+  color: blue;
+}
+li a{
+    list-style: none;  
+}
+
+.foot-inform{
+  display: flex;
+  justify-content: space-between;
+  background-color: #121f01;
+  border-radius: 25px;
+  color: #fff;
+}
+.logo{
+  width: 25%;
+}
+.line{
+  background: #121f01;
+  margin-top: 15%;
+}
+.last{
+  margin-left: 38%;
+  color: #121f01;
+}
+
+.background-image img{
+  width: 100%;
+  height: 30%;
+ 
+}
+.image-fruit{
+  margin-left: 35%;
+}
+.veggies{
+  margin-left: 5%;
+}
+  @media screen and (max-width: 768px) {
+    .navbar ul {
+      display: none;
+      position: absolute;
+      top: 50px;
+      left: 0;
+      width: 100%;
+      background-color: #333;
+      text-align: center;
+    }
+  
+    .navbar li {
+      display: block;
+      margin: 0;
+      border-bottom: 1px solid #fff;
+    }
+  
+    .navbar li:last-child {
+      border-bottom: none;
+    }
+  
+    .navbar a {
+      display: block;
+      padding: 10px;
+      color: #fff;
+      font-size: 14px;
+    }.navbar .menu-icon {
+        cursor: pointer;
+        display: block;
+        padding: 10px 20px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        color: #fff;
+      }
+    
+      .navbar .menu-icon:hover {
+        color: #f00;
+      }
+    
+      .navbar .menu-icon .fa-bars {
+        font-size: 24px;
+      }
+    }
